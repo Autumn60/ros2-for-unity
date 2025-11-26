@@ -1,5 +1,5 @@
 {
-    "name": "Robotec.ai.Ros2ForUnity",
+    "name": "com.robotec-ai.ros2-for-unity",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
