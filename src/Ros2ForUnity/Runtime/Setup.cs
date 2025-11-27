@@ -67,11 +67,11 @@ namespace ROS2
                 switch (Application.platform)
                 {
                     case RuntimePlatform.LinuxEditor:
-                        return Path.GetFullPath("Packages/ai.robotec.ros2-for-unity/Plugins") + "/Linux/x86_64";
+                        return Path.GetFullPath("Packages/com.robotec-ai.ros2-for-unity/Plugins") + "/Linux/x86_64";
                     case RuntimePlatform.LinuxPlayer:
                         return Path.GetFullPath(Application.dataPath) + "/Plugins";
                     case RuntimePlatform.WindowsEditor:
-                        return Path.GetFullPath("Packages/ai.robotec.ros2-for-unity/Plugins").Replace("/", "\\") + "\\Windows\\x86_64";
+                        return Path.GetFullPath("Packages/com.robotec-ai.ros2-for-unity/Plugins").Replace("/", "\\") + "\\Windows\\x86_64";
                     case RuntimePlatform.WindowsPlayer:
                         return Path.GetFullPath(Application.dataPath).Replace("/", "\\") + "\\Plugins\\x86_64";
                     default:
