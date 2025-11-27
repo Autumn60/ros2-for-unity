@@ -3,6 +3,3 @@ log
 build
 .idea
 src/ros2cs
-src/Ros2ForUnity/Plugins
-!src/Ros2ForUnity/Plugins/.gitkeep
-src/Ros2ForUnity/Resources/ros2-for-unity.xml
