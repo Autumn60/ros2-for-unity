@@ -10,3 +10,25 @@ repositories:
 #    ...
 #    ...
 
+
+repositories:
+  src/ros2cs/custom_messages/tier4_autoware_msgs:
+    type: git
+    url:    https://github.com/tier4/tier4_autoware_msgs.git
+    version: tier4/universe
+  src/ros2cs/custom_messages/autoware_msgs:
+    type: git
+    url:    https://github.com/autowarefoundation/autoware_msgs.git
+    version: main
+  src/ros2cs/custom_messages/autoware_internal_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    version: main
+  src/ros2cs/custom_messages/autoware_adapi_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    version: main
+  src/ros2cs/custom_messages/geographic_msgs:
+    type: git
+    url: https://github.com/ros-geographic-info/geographic_info.git
+    version: ros2

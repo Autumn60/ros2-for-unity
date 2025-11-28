@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<ros2-for-unity>
+	<ros>humble</ros>
+	<standalone>true</standalone>
+</ros2-for-unity>
